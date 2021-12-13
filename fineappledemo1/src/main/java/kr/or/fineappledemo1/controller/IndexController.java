@@ -1,4 +1,4 @@
-package com.example.fineappledemo1.controller;
+package kr.or.fineappledemo1.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

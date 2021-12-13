@@ -1,4 +1,4 @@
-package com.example.fineappledemo1.config;
+package kr.or.fineappledemo1.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.CacheControl;
