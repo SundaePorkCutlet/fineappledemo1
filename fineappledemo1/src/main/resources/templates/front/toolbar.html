@@ -2,13 +2,13 @@
 <html xmlns:th="http://www.thymeleaf.org" lang="ko">
 <head th:fragment="head">
     <meta charset="utf-8">
+   <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
     <link rel="icon" href="../assets/img/logo.png" type="image/x-icon">
     <title>fineapple</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <style>
 
         body div.container .member-icon {
@@ -81,8 +81,9 @@
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"> 
             <li>
                 <div class="logo-wrap">
+                <a th:href="@{../user/banner}" style="text-decoration:none; color:black;">
                     <p class="logo-typo">FineApple</p>
-                    <img alt="logo" class="logo" src="../assets/img/logo.png"/>
+                    <img alt="logo" class="logo" src="../assets/img/logo.png"/></a>
                 </div>
             </li>
         </ul>

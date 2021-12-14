@@ -7,7 +7,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/user/*")
 public class UserController {
 
-    @RequestMapping(value="login")
+	@RequestMapping(value="banner")
+    public String banner() {
+    	System.out.println("banner");
+    	return "front/index.html";
+    }
+	
+	
+	
+	
+	@RequestMapping(value="login")
     public String login(){
      System.out.println("login");
     	return "user/login.html";
